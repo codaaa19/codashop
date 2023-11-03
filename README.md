@@ -1,16 +1,20 @@
-# codashop
+# CodaShop : Everything you need.
 
-A new Flutter project.
+# Assignment 7 (Flutter)
 
-## Getting Started
+# Apa perbedaan utama antara stateless dan stateful widget dalam konteks pengembangan aplikasi Flutter?
 
-This project is a starting point for a Flutter application.
+Pada `stateless`, widget **TIDAK MENYIMPAN**  data sehingga menyebabkan :
 
-A few resources to get you started if this is your first Flutter project:
+- `Immutable` yang berarti pada perubahan apapun tidak akan menyebabkan perubahan.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Tidak dapat diperbaharui secara dinamis` yang berarti diperlukan widget lain setiap diadakan perubahan data.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pada `statefull`, widget **MENYIMPAN** data sehingga menyebabkan :
+
+- `Mutable` yang berarti akan mengalami perubahan jika data dirubah-rubah.
+
+- `Dapat diperbaharui secara dinamis` yang berarti tampilan widget dapat berubah seiring dengan perubahan data. (tidak perlu widget lain)
+
+# Sebutkan seluruh widget yang kamu gunakan untuk menyelesaikan tugas ini dan jelaskan fungsinya masing-masing.
+
