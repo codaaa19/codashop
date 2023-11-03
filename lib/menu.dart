@@ -9,7 +9,6 @@ class MyHomePage extends StatelessWidget {
     ShopItem("Logout", Icons.logout, Colors.purple),
     ];
 
-
     @override
     Widget build(BuildContext context) {
         return Scaffold(
