@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:codashop/screens/menu.dart';
 import 'package:codashop/screens/shoplist_form.dart';
+import 'package:codashop/screens/list_item.dart';
 import 'package:codashop/screens/listitem.dart';
 
 class LeftDrawer extends StatelessWidget {
@@ -63,17 +64,28 @@ class LeftDrawer extends StatelessWidget {
                   ));
             },
           ),
+          // ListTile(
+          //   leading: const Icon(Icons.checklist),
+          //   title: const Text('See Item'),
+          //   onTap: () {
+          //     Navigator.push(
+          //         context,
+          //         MaterialPageRoute(
+          //           builder: (context) => const ItemPage(),
+          //         ));
+          //   },
+          // ),
           ListTile(
-            leading: const Icon(Icons.checklist),
-            title: const Text('See Item'),
+            leading: const Icon(Icons.shopping_basket),
+            title: const Text('See Item (PBP VER)'),
             onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const ItemPage(),
-                  ));
-            },
-          ),
+                // Route menu ke halaman produk
+                Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProductPage()),
+        );
+    },
+),
         ],
       ),
     );

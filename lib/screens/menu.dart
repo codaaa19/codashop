@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:codashop/screens/shoplist_form.dart';
 import 'package:codashop/widgets/left_drawer.dart';
 import 'package:codashop/screens/listitem.dart';
+import 'package:codashop/screens/list_item.dart';
 // TODO: Impor halaman ShopFormPage jika sudah dibuat
 
 
@@ -118,7 +119,7 @@ class ShopCard extends StatelessWidget {
               }
               else if (item.name == "Lihat Item"){
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const ItemPage()));  
+                      MaterialPageRoute(builder: (context) => const ProductPage()));  
               }
         },
         child: Container(
